@@ -14,6 +14,26 @@ The framework aims to combine the predictive capabilities of multiple learning c
 - Improve model interpretability through explainable AI techniques.
 - Evaluate the framework using standard classification metrics.
 
+## Dataset Description
+
+This research uses the Combined UCI Heart Disease Dataset
+containing 920 patient records.
+
+### Data Splitting
+
+- Total Samples: 920
+- Training Samples: 736 (80%)
+- Testing Samples: 184 (20%)
+- Splitting Strategy: Stratified Train-Test Split
+- Random State: 42
+
+### Target Variable
+
+The original target variable is converted into binary classification:
+
+- 0: No Heart Disease
+- 1: Heart Disease
+
 ## Methodology
 
 The proposed research framework includes:
