@@ -57,12 +57,11 @@ The proposed research framework includes:
 
 ## Repository Structure
 
-```text
 explainable-dual-channel-heart-disease-prediction/
 │
+├── README.md
 ├── heart_disease.ipynb
-└── README.md
-```
+└── heart_disease_uci.csv
 
 ## Evaluation Metrics
 
